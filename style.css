@@ -9,6 +9,8 @@
   --clr-background: #2f3e46;
   --clr-background-light: #354f52;
   --clr-text-main: #84a98c;
+  --clr-green-darker: #52796f;
+  --clr-light-creamy: #cad2c5;
 
   --font-main: "Aboreto", cursive;
   --font-paragraph: "Poppins", sans-serif;
@@ -49,6 +51,9 @@ h1 {
   font-family: var(--font-main);
   font-size: 2.5rem;
   opacity: 0.5;
+  word-wrap: break-word;
+  text-align: center;
+  user-select: none;
 }
 
 .topics-container {
@@ -66,6 +71,9 @@ h1 {
   margin: -20px;
   transition: border 0.2s, margin 0.2s;
   font-size: 1.4rem;
+  color: var(--clr-text-main);
+  text-decoration: none;
+  user-select: none;
 }
 
 .topic:hover {

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cheatsheet.css" />
     <title>Document</title>
   </head>
   <body>
@@ -23,12 +24,5 @@
         alt="github link."
     /></a>
     <h1>WebDev Cheatsheet</h1>
-    <nav>
-      <div class="topics-container">
-        <a href="javascript.html" class="topic">Javascript</a>
-        <a class="topic">PlaceHolder</a>
-        <a class="topic">Placeholder</a>
-      </div>
-    </nav>
   </body>
 </html>
