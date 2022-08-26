@@ -27,7 +27,7 @@ body {
 
 .github-icon,
 .home-icon {
-  position: absolute;
+  position: fixed;
   height: 30px;
   transition: all 0.5s;
   top: 10px;
@@ -80,4 +80,11 @@ h1 {
 .topic:hover {
   border: 5px dotted black;
   margin: -5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .topics-container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
 }
