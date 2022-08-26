@@ -3,16 +3,20 @@
   height: auto;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(168px, 185px));
+  grid-template-columns: repeat(auto-fit, 180px);
   gap: 20px;
   margin-top: 20px;
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px;
   font-size: 16px;
-  background-color: red;
+  background-color: var(--clr-background-light);
+  position: relative;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
 }
 
 ::selection {
@@ -20,12 +24,23 @@
 }
 
 p {
-  /* background-color: red; */
   background-color: var(--clr-background-light);
-  position: relative;
-  z-index: 1000;
+  display: flex;
 }
 
 .overlay {
-  background-color: blue;
+  background-color: var(--clr-background-light);
+  grid-area: overlap;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 20px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
 }
