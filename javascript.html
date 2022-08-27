@@ -28,12 +28,16 @@
     <div class="content">
       <div class="card">
         <div class="overlay">Closure</div>
-        <p></p>
+        <p>Passed functions that are called outside of their scope retain acces to their original scope.</p>
       </div>
       <div class="card">
         <div class="overlay">Factory Function</div>
-        <p>Function that creates object and returns it.</p>
+        <p>Function that creates object and returns it. Uses camelCase notation.</p>
       </div>
+      <div class="card">
+        <div class="overlay">Constructor Function</div>
+        <p>Uses "this" keyword to set object's properties and methods, and "new" to initialize new object. Uses PascalNamingConvention.</p>
+      </div> 
       <div class="card">
         <div class="overlay">Higher Order Function</div>
         <p>
@@ -133,18 +137,22 @@
         <p>Variables defined with "var" are function scoped, while "let" and "const" are block scoped.</p>
       </div>
             <div class="card">
+        <div class="overlay">Revealing Module Pattern</div>
+        <p>All functions and variables should be hidden unless they are needed outside of their private scope.</p>
+      </div>      
+      <div class="card">
+        <div class="overlay">Composition over Inheritance</div>
+        <p>Composition defines object as the sum of its parts, thereby is better than inheritance from one class to another, because it doesn't give a risk of breaking code when changing parent class. </p>
+      </div>      
+      <div class="card">
+        <div class="overlay">Methods On Variables</div>
+        <p>Although code like "hi".toUpperCase() makes "hi" look like an object, this is nothing but illusion. Javascript creates a temporary object when you do this, and then immediately discards it.</p>
+      </div>      
+      <div class="card">
         <div class="overlay"></div>
         <p></p>
-      </div>      <div class="card">
-        <div class="overlay"></div>
-        <p></p>
-      </div>      <div class="card">
-        <div class="overlay"></div>
-        <p></p>
-      </div>      <div class="card">
-        <div class="overlay"></div>
-        <p></p>
-      </div>      <div class="card">
+      </div>      
+      <div class="card">
         <div class="overlay"></div>
         <p></p>
       </div>
