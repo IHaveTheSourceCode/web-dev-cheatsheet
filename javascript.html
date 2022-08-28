@@ -12,6 +12,7 @@
   <body>
     <a href="index.html" draggable="false"
       ><img
+        loading = "lazy"
         draggable="false"
         class="home-icon"
         src="images/home-icon.svg"
@@ -19,6 +20,7 @@
     /></a>
     <a href="https://github.com/IHaveTheSourceCode" draggable="false"
       ><img
+        loading = "lazy"
         draggable="false"
         class="github-icon"
         src="images/github-icon.svg"
@@ -26,51 +28,51 @@
     /></a>
     <h1>WebDev Cheatsheet</h1>
     <div class="content">
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Closure</div>
         <p>Passed functions that are called outside of their scope retain acces to their original scope.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Factory Function</div>
         <p>Function that creates object and returns it. Uses camelCase notation.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Constructor Function</div>
         <p>Uses "this" keyword to set object's properties and methods, and "new" to initialize new object. Uses PascalNamingConvention.</p>
       </div> 
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Higher Order Function</div>
         <p>
           Function that takes another function as an argument, or function that
           returns another function.
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Impure Function</div>
         <p>
           Uses variables declared outside of the scope, which gives a risk of
           mutatning them.
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Pure Function</div>
         <p>
           Relies only on locally declared variables, thereby removing risk of
           mutating variables.
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Temporal Dead Zone</div>
         <p>
           Is created above every variable declared with let or const. Blocks
           acces to the declared variable to everything above it.
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Dynamic typing <br> vs <br> Static typing</div>
         <p>Dynamicaly typed language doesn't need to know types of defined variables before compiling, which is opposite to static typed language.</p>
       </div> 
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Strict Mode</div>
         <p>
           Throws errors when assigning value to non existing variable, object or
@@ -78,21 +80,21 @@
           duplicate a parameter.
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Minification</div>
         <p>
           Minimazing code by deleting characters that are not interpreted by the
           browser e.g., whitespaces.
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Buffering</div>
         <p>
           Transfering data from memory with a relatively long acces time (e.g.:
           website server) to the memory with shorter accest time (local memory).
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">"Expires" and "Cache-Control" Captions</div>
         <p>
           "Expires" tells the browser when will the file expire, and will have
@@ -100,75 +102,75 @@
           download file should be downloaded again.
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Application Programming Interface</div>
         <p>Defines how different programs communicate between each other.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">REST</div>
         <p>
           Representational State Transfer - is a design concept for managing
           state information.
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Array Methods</div>
         <p>
           pop(), push(), shift(), unshift(), splice(), slice(), arr.join(),
           Array.from(), arr.concat(), arr.length, arr.map(), arr.reduce(), arr.filter().
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Values</div>
         <p>Primitive values: number, boolean, string, undefined, null, bigInt, symbol.
             <br>Other type values: objects, functions. </br>
         </p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Destructuring</div>
         <p>JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Managing "this" keyword reference</div>
         <p>().call(), ().apply(), ().bind()</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Variable's Scopes</div>
         <p>Variables defined with "var" are function scoped, while "let" and "const" are block scoped.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Modules</div>
         <p>Modules are created as IIFE with a function inside.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Defining Private Methods</div>
         <p>Private methods start with "_" e.g. _privateMethod</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Revealing Module Pattern</div>
         <p>One of the most popular ways of creating modules. Uses the return statement to return an object literal that "reveals" only the methods or proporties we want to be publicly avaible.</p>
       </div>      
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Composition over Inheritance</div>
         <p>Composition defines object as the sum of its parts, thereby is better than inheritance from one class to another, because it doesn't give a risk of breaking code when changing parent class. </p>
       </div>      
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Methods On Variables</div>
         <p>Although code like "hi".toUpperCase() makes "hi" look like an object, this is nothing but illusion. Javascript creates a temporary object when you do this, and then immediately discards it.</p>
       </div>            
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Function expression vs Function declaration</div>
         <p>Function expression declares function and assigns it to variable. Function declaration does only create function without assigning it to variable.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Encapsulation</div>
         <p>One of the basic concepts of the OOP, assumes that it's better to hide certain parameters or methods, so they won't be used outside of the parent object.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay">Prototypal Inheritance</div>
         <p>Prototypal Inheritance is a method by which an object can inherit the properties and methods from another object.</p>
       </div>
-      <div class="card">
+      <div class="card" loading = "lazy">
         <div class="overlay"></div>
         <p></p>
       </div>
